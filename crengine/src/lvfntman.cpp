@@ -49,9 +49,6 @@
     #include <fontconfig/fontconfig.h>
 #endif
 
-#endif
-
-
 #if COLOR_BACKBUFFER==0
 //#define USE_BITMAP_FONT
 #endif

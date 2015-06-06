@@ -530,6 +530,7 @@ public:
                         if (islocal.length()==5) _url=(_url.substr((_basePath.length()+1),(_url.length()-_basePath.length())));
                         _fontList.add(_url, _face, _bold, _italic);
             }
+	}
             _state = 0;
             break;
 		case ',':
